@@ -392,6 +392,8 @@ buildWithCache()
 	});
 ```
 
+### logLevel
+
 ### makeAbsoluteExternalsRelative
 
 |  |  |
@@ -421,6 +423,8 @@ Note that when a relative path is directly marked as "external" using the [`exte
 | Default: | 20                              |
 
 Limits the number of files rollup will open in parallel when reading modules or writing chunks. Without a limit or with a high enough value, builds can fail with an "EMFILE: too many open files". This depends on how many open file handles the operating system allows.
+
+### onLog
 
 ### onwarn
 
